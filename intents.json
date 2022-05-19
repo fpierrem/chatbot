@@ -1,0 +1,38 @@
+{"intents":[
+    {"tag":"greetings",
+    "sentences":["hi","hello","hey","good morning","good evening"],
+    "responses":["Hello","Hi","Hey there"]
+    },
+    {"tag":"how_are_you",
+    "sentences":["how are you?","what's up?","how is it going?","how are things?"],
+    "responses":["I'm well, how are you?","I'm great and you?","I'm OK thanks and you?"]
+    },
+    {"tag":"positive_states",
+    "sentences":["I'm doing great","I'm fine","great","good","awesome"],
+    "responses":["That's good to hear.","Perfect"]
+    },
+    {"tag":"negative_states",
+    "sentences":["not so good","tired","depressed","everything is shit","sad","sick","headache","flu"],
+    "responses":["I'm sorry to hear that.","I hope you feel better soon."]
+    },
+    {"tag":"identity",
+    "sentences":["what's your name?","who are you?","what are you?"],
+    "responses":["I'm just a bot. Nice to meet you.","I'm an AI. Nice to meet you."]
+    },
+    {"tag":"ending_conversation",
+    "sentences":["ok","have to go","gotta go","talk to you later","ciao","bye","good bye","see you","see you later"],
+    "responses":["OK, talk to you later.","OK, talk to you soon."]
+    },
+    {"tag":"general_questions",
+    "sentences":["what is the meaning of life?","does god exist?","who is the president?","what year are we?","what's the capital of the US?"],
+    "responses":["I don't know yet, sorry.","I don't have an answer for that yet.","I can't help you with that I'm afraid."]
+    },
+    {"tag":"information_search",
+    "sentences":["chinese restaurant in Paris","weather in Paris","flights for london","buy phone","wikipedia","movies"],
+    "responses":["You should look that up on Google."]
+    },
+    {"tag":"maths",
+    "sentences":["what is 2+2?","2+2","3*8","23/5"],
+    "responses":["You should use a calculator for that."]
+    }
+]}
